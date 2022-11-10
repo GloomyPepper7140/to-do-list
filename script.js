@@ -23,8 +23,16 @@ function criaTarefa(li, buttonClear){
 toDoSend.addEventListener('click',function(e){
     const li = criaLi();
     const buttonClear = criaButtonClear();
-    const tarefa = criaTarefa(li, buttonClear)
-    
+    const tarefa = criaTarefa(li, buttonClear);    
+});
+
+toDoField.addEventListener('keyup', function(e){
+    if(e.keyCode === 13){
+        const li = criaLi();
+        const buttonClear = criaButtonClear();
+        const tarefa = criaTarefa(li, buttonClear);    
+    }
+
 })
 
 addEventListener('click',function(e){
@@ -33,4 +41,4 @@ addEventListener('click',function(e){
     if(el.classList.contains ('button-clear')){
         el.parentElement.remove();
     }
-})
+});
