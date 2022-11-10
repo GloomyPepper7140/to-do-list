@@ -14,12 +14,17 @@ function criaButtonClear(){
     return buttonClear;
 }
 
-toDoSend.addEventListener('click',function(e){
-    const li = criaLi();
-    const buttonClear = criaButtonClear();
+function criaTarefa(li, buttonClear){
     li.innerText = toDoField.value;
     li.appendChild(buttonClear);
     toDoList.appendChild(li);
+}
+
+toDoSend.addEventListener('click',function(e){
+    const li = criaLi();
+    const buttonClear = criaButtonClear();
+    const tarefa = criaTarefa(li, buttonClear)
+    
 })
 
 addEventListener('click',function(e){
