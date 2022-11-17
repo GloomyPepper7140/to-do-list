@@ -9,8 +9,7 @@ function criaLi(){
 
 function criaButtonClear(){
     const buttonClear = document.createElement('button');
-    buttonClear.setAttribute ('class', 'button-clear');
-    buttonClear.innerText = 'Deletar';
+    buttonClear.setAttribute ('class', 'button-clear fa fa-trash');
     return buttonClear;
 }
 

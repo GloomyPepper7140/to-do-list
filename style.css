@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://pbs.twimg.com/media/EV7Kbx_WoAAgB7L?format=jpg&name=900x900);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+    height: 580px;
+    background-color: #e26756;
+    border: solid #efefed 10px;
+    border-radius: 12px;
+}
+
+.title{
+    margin-top: 5px;
+    color: #efefed;
+    text-shadow: 2px 0px #352220;
+}
+
+.field-box{
+    margin-top: 20px ;
+
+}
+
+
+.field-box input{
+    background-color: #efefed;
+    border-radius: 20px;
+    border: none;
+
+}
+
+.field-box input:hover{
+    background-color: #b6b6b6;
+    border-radius: 20px;
+    border: none;
+}
+
+.to-do-send{
+    margin-top: 10px;
+    background-color:#efefed;
+    align-items: center;
+    padding: 5px;
+    list-style: none;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.to-do-send:hover{
+    background-color: #838383; 
+    color: #efefed;
+}
+
+hr {
+    margin-top: 20px;
+    width: 90%;
+    border: solid #efefed;
+}
+
+.list-box{
+    width: 60%;
+    margin-top: 10px;
+
+
+}
+
+li{
+    width: 100%;
+    margin-top: 10px;
+    background-color:#efefed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    list-style: none;
+    border-radius: 20px;
+
+
+}
+
+li button{
+    margin: 5px;
+    background-color: #e26756 ;
+    border: none;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+li button:hover{
+    margin: 5px;
+    background-color: #b84539;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    color: #efefed;
+}
