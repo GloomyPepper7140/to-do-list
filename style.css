@@ -11,7 +11,7 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-image: url(https://pbs.twimg.com/media/EV7Kbx_WoAAgB7L?format=jpg&name=900x900);
+    background-image: url(https://img.freepik.com/premium-vector/breakfast-kawaii-background_6997-1576.jpg?w=2000);
 }
 
 .container {
@@ -111,4 +111,5 @@ li button:hover{
     height: 30px;
     width: 30px;
     color: #efefed;
+    
 }
