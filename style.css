@@ -11,7 +11,7 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-image: url(https://img.freepik.com/premium-vector/breakfast-kawaii-background_6997-1576.jpg?w=2000);
+    background-image: url(https://wallpaperaccess.com/full/458187.jpg);
 }
 
 .container {
@@ -20,15 +20,15 @@ body {
     align-items: center;
     width: 340px;
     height: 580px;
-    background-color: #e26756;
-    border: solid #efefed 10px;
+    background-color: #FFF6EA;
+    border: solid #2F4858 10px;
     border-radius: 12px;
 }
 
 .title{
     margin-top: 5px;
-    color: #efefed;
-    text-shadow: 2px 0px #352220;
+    color: #2F4858;
+    text-shadow: 2px 2px #e0a79a;
 }
 
 .field-box{
@@ -38,39 +38,42 @@ body {
 
 
 .field-box input{
-    background-color: #efefed;
+    background-color: #2F4858;
     border-radius: 20px;
-    border: none;
+    color: white;
+    border: solid black 2px;
 
 }
 
 .field-box input:hover{
-    background-color: #b6b6b6;
+    background-color: #46708a;
+    border: solid black 2px;
     border-radius: 20px;
-    border: none;
 }
 
 .to-do-send{
     margin-top: 10px;
-    background-color:#efefed;
+    background-color:#2F4858;
     align-items: center;
+    width: 30px;
+    height: 30px;
     padding: 5px;
     list-style: none;
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
     cursor: pointer;
+    color: white;
 
 }
 
 .to-do-send:hover{
-    background-color: #838383; 
-    color: #efefed;
+    color: #FC6060;
 }
 
 hr {
     margin-top: 20px;
     width: 90%;
-    border: solid #efefed;
+    border: solid #2F4858;
 }
 
 .list-box{
@@ -83,33 +86,35 @@ hr {
 li{
     width: 100%;
     margin-top: 10px;
-    background-color:#efefed;
+    background-color:#2F4858;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px;
     list-style: none;
     border-radius: 20px;
+    color: white;
 
 
 }
 
 li button{
     margin: 5px;
-    background-color: #e26756 ;
+    background-color: #FFF6EA;
+    border-radius: 25%;
     border: none;
-    border-radius: 50%;
     height: 30px;
     width: 30px;
     cursor: pointer;
+    color: black;
 }
 
 li button:hover{
     margin: 5px;
-    background-color: #b84539;
-    border-radius: 50%;
+    background-color: #FFF6EA;
+    border-radius: 25%;
     height: 30px;
     width: 30px;
-    color: #efefed;
+    color: #FC6060;
     
 }
